@@ -14,7 +14,6 @@ function createDeck(deck) {
     card.face = card.points;
     if (card.face == 1) {
       card.face = "ace";
-      card.altPoints = 1;
       card.points = 11;
     }
     if (card.face == 11) {
