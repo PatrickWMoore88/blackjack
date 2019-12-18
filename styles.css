@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+#table {
+  display: flex;
+  margin: 0;
+  border: 12px solid rgb(73, 37, 4);
+  border-radius: 350px;
+  padding: 50px;
+  background-color: rgb(0, 83, 0);
+  width: 100%;
+  height: 98vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#messages {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 2em;
+}
+
+.hand {
+  display: flex;
+  margin: 10px 0px;
+  border: 1px solid transparent;
+  padding: 5px;
+  background-color: rgb(1, 150, 1);
+  width: 94%;
+  height: 20vh;
+  justify-content: center;
+}
+
+.hand img {
+  width: 100px;
+  float: left;
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  margin: 30px;
+  width: 25%;
+  justify-content: space-evenly;
+}
+
+.buttons button:hover {
+  box-shadow: 0px 1px 1px black;
+}
+
+.buttons button:focus {
+  outline: none;
+}
+
+.buttons button:active {
+  color: white;
+  background: linear-gradient(#666, #222);
+  border: 1px solid black;
+}
+
+label {
+  padding: 20px;
+  color: white;
+}
